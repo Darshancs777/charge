@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<head>
+    <title>
+    personal portfolio web desgin
+    </title>
+    <style type="text/css">
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        header{
+            width:100%;
+            height:100vh ;
+            font-family: sans-serif;
+        }
+        nav{
+            width: 100%;
+            height: 100px;
+            background-color: rgb(19, 226, 92);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .log{
+            font-size: 2em;
+        }
+        .log span{
+            color:brown ;
+        }
+        .navbar{
+            text-decoration:none ;
+            color: black;
+            padding: 10px 20px;
+        }
+        .menu a:hover:before{
+            width: 100%;
+        }
+.h-text{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.h-text h1{
+    font-size: 3em;
+}
+.h-text a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    letter-spacing: 5px;
+}
+#titlec{
+    color: blue;  
+}
+.navbar:hover{
+    background-color: rgb(244, 245, 243);
+}
+img{
+    padding: 50px;
+}
+.navbar:hover{
+  background-color: aliceblue;
+}
+
+    </style>
+   
+
+   
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="log">
+                Port<span id="titlec">folio</span>
+            </div> 
+            <div class="menu">
+                <a class="navbar" href="#">portfolio</a>
+                <a class="navbar" href="#">services</a>
+                <a class="navbar" href="#">skills</a>
+                <a class="navbar" href="#">contact</a>
+            </div>
+            
+        </nav>
+        <section class="h-text">
+            <div class="left">
+                <p> I'm a</p>
+                <h1>Front End dev<span style="color: skyblue;">loper</span></h1>
+                <p>programmer</p>
+                <br>        <br>
+                <a class="cvdwld" href="#">Dowonload CV</a>
+            </div>
+            <div class="right">
+                <img src="cs.JPG" width="331px">
+            </div>
+        </section>
+    </header>
+</body>
